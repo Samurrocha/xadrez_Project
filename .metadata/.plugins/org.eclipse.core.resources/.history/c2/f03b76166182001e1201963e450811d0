@@ -1,0 +1,24 @@
+package application;
+
+import chess.ChessPiece;
+
+public class UI {
+
+	public static void  printBoard(ChessPiece[][] pieces) {
+		
+	}
+	
+	public static void printPiece(ChessPiece piece) {
+		
+		if(piece == null) {
+			System.out.println("_");
+		}
+		else {
+			System.out.println(piece);
+		}
+		
+		
+	}
+	
+	
+}
